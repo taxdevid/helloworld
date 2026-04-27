@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 570px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+.navbar {
+    background: gray;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 10px 15px;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.biodata {
+    width: 30%;
+    background: #8ec6c5;
+    padding: 20px;
+}
+
+.biodata img {
+    width: 40%;
+    margin: 10px 0;
+}
+
+.pengalaman {
+    width: 70%;
+    padding: 20px;
+}
+
+.pengalaman table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.pengalaman th, .pengalaman td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.pengalaman th {
+    background: #8ec6c5;
+}
+
+footer {
+    background: gray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
